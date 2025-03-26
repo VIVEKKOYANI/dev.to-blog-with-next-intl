@@ -9,7 +9,6 @@ export default async function Home({
 }: {
   params: { locale: string };
 }) {
-  console.log("locale",locale);
   
   // Fetch articles in parallel with translations
   const [articles, t] = await Promise.all([
@@ -34,7 +33,6 @@ export default async function Home({
       </div>
     );
   }
-console.log("articles", articles);
 
   return (
     <div className="container mx-auto py-8 px-4">

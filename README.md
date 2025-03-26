@@ -10,28 +10,26 @@ This project is a DEV.to-like blogging platform built using Next.js (App Router)
 ✅ Middleware-based locale handling  
 ✅ SEO-friendly pages  
 
-## 📂 Project Structure
+## 📚 Project Structure
 
 ```
-📦 serverside-next-intl
- ┣ 📂 app
- ┃ ┣ 📂 [locale]   # Dynamic language-based routes
- ┃ ┃ ┣ 📂 blog
- ┃ ┃ ┃ ┣ 📜 page.tsx   # Blog listing page
- ┃ ┃ ┃ ┣ 📜 [id].tsx   # Single blog page
- ┃ ┃ ┣ 📜 layout.tsx   # Root layout with language dropdown
- ┃ ┃ ┣ 📜 page.tsx     # Homepage
- ┃ ┣ 📂 components
- ┃ ┃ ┣ 📜 LanguageDropdown.tsx   # Language switcher dropdown
- ┃ ┣ 📂 i18n
- ┃ ┃ ┣ 📜 messages.ts   # Translations
- ┃ ┃ ┣ 📜 routing.ts    # Locale routing config
- ┃ ┣ 📜 middleware.ts   # Locale middleware
- ┣ 📜 next-intl.config.ts  # next-intl configuration
- ┣ 📜 next.config.ts       # Next.js config
- ┣ 📜 tsconfig.json        # TypeScript config
- ┣ 📜 package.json         # Dependencies
- ┣ 📜 README.md            # Project documentation
+📆 serverside-next-intl
+ ┓ 📚 app
+ ┃ ┓ 📚 [locale]   # Dynamic language-based routes
+ ┃ ┃
+ ┃ ┃ ┓ 📋 layout.tsx   # Root layout with language dropdown
+ ┃ ┃ ┓ 📋 page.tsx     # Blog listing page
+ ┃ ┓ 📚 components
+ ┃ ┃ ┓ 📋 LanguageDropdown.tsx   # Language switcher dropdown
+ ┃ ┓ 📚 i18n
+ ┃ ┃ ┓ 📋 messages.ts   # Translations
+ ┃ ┃ ┓ 📋 routing.ts    # Locale routing config
+ ┃ ┓ 📋 middleware.ts   # Locale middleware
+ ┓ 📋 next-intl.config.ts  # next-intl configuration
+ ┓ 📋 next.config.ts       # Next.js config
+ ┓ 📋 tsconfig.json        # TypeScript config
+ ┓ 📋 package.json         # Dependencies
+ ┓ 📋 README.md            # Project documentation
 ```
 
 ## 🌍 Internationalization (i18n)
