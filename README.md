@@ -46,7 +46,7 @@ This project uses `next-intl` for handling multiple languages.
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/your-repo/serverside-next-intl.git
+git clone https://github.com/VIVEKKOYANI/dev.to-blog-with-next-intl.git
 cd serverside-next-intl
 ```
 
