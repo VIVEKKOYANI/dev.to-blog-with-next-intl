@@ -1,0 +1,13 @@
+{
+  "ArticlesPage": {
+    "pageTitle": "Últimos Artículos",
+    "articleTitleWrapper": "{title}",
+    "articleDescriptionWrapper": "{description}",
+    "noArticles": "Aún no se han encontrado artículos.",
+    "readArticle": "Leer artículo",
+    "minutesRead": "{minutes} min de lectura",
+    "reactions": "{count} reacciones",
+    "publishedOn": "Publicado el {date}",
+    "noDescription": "No hay descripción disponible"
+}
+}
